@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CrudXamarin.Views.Master"
+             Title="Master">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Agregar Usuario" x:Name="btnAgregar" BackgroundColor="Red" Clicked="btnCrud_Clicked"/>
+            <Button Text="Listar Usuario" x:Name="btnListar" BackgroundColor="Red" Clicked="btnListar_Clicked"/>
+            <Button Text="Editar Usuario" x:Name="btnEditar" BackgroundColor="Red" Clicked="btnEditar_Clicked"/>
+            <Button Text="Eliminar Usuario" x:Name="btnEliminar" BackgroundColor="Red" Clicked="btnEliminar_Clicked"/>    
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
